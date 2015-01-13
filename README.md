@@ -1,4 +1,4 @@
-#Clean Blog by Start Bootstrap - Jekyll Version
+#Recipe Blog
 
 The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
 

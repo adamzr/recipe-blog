@@ -1,13 +1,13 @@
 # Site settings
 title: Recipe Blog
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
+email: adamzr@gmail.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
+baseurl: "/recipe-blog"
+url: "http://adamzr.github.io"
+twitter_username: adamzr
 github_username:  adamzr
-facebook_username:  IronSummitMedia
+facebook_username:  azrich
 
 # Build settings
 markdown: kramdown
