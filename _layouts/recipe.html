@@ -2,7 +2,7 @@
 layout: default
 ---
 <div itemscope itemtype="http://schema.org/Recipe">
-  <meta itemprop="image" content="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"/>
+  <meta itemprop="image" content="{{ site.url }}{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"/>
   <!-- Post Header -->
   <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
       <div class="container">
