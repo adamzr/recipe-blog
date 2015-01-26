@@ -13,6 +13,8 @@ layout: default
                       {% if page.subtitle %}
                       <h2 class="subheading">{{ page.subtitle }}</h2>
                       {% endif %}
+                      <span class="meta duration">Prep Time: <meta itemprop="prepTime" content="{{page.prep-time}}"><span class="human-readable-duration"></span></span>
+                      <span class="meta duration">Cook Time: <meta itemprop="cookTime" content="{{page.cook-time}}"><span class="human-readable-duration"></span></span>
                       <span class="meta">Posted by <span itemprop="author">{{ page.author }}</span> on {{ page.date | date: "%B %-d, %Y" }}</span>
                   </div>
               </div>
@@ -36,6 +38,12 @@ layout: default
                   <span itemprop="recipeInstructions">
                   {{ content }}
                   </span>
+
+                  <div itemprop="aggregateRating"
+                  itemscope itemtype="http://schema.org/AggregateRating">
+                  Rated <span itemprop="ratingValue">{% star_count page.id %}</span>/5
+                  based on <span itemprop="reviewCount">11</span> customer reviews
+                </div>
 
                   <hr>
 
